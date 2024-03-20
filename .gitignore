@@ -1,0 +1,10 @@
+*.pth
+__pycache__
+*.mp4
+*.png 
+*.jpg
+*.pth
+*.ckpt
+*.safetensors
+output/
+examples/videos/

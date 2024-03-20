@@ -37,7 +37,7 @@ pipe = SDImagePipeline.from_model_manager(
 prompt = "masterpiece, best quality, solo, long hair, wavy hair, silver hair, blue eyes, blue dress, medium breasts, dress, underwater, air bubble, floating hair, refraction, portrait,"
 negative_prompt = "worst quality, low quality, monochrome, zombie, interlocked fingers, Aissist, cleavage, nsfw,"
 
-torch.manual_seed(0)
+torch.manual_seed(2004)
 image = pipe(
     prompt=prompt,
     negative_prompt=negative_prompt,

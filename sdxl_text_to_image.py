@@ -8,7 +8,8 @@ import torch
 
 # Load models
 model_manager = ModelManager(torch_dtype=torch.float16, device="cuda")
-model_manager.load_models(["models/stable_diffusion_xl/bluePencilXL_v200.safetensors"])
+# model_manager.load_models(["models/stable_diffusion_xl/bluePencilXL_v200.safetensors"])
+model_manager.load_models(["models/stable_diffusion_xl/leosamsHelloworldSDXL_helloworldSDXL40.safetensors"])
 pipe = SDXLImagePipeline.from_model_manager(model_manager)
 
 prompt = "masterpiece, best quality, solo, long hair, wavy hair, silver hair, blue eyes, blue dress, medium breasts, dress, underwater, air bubble, floating hair, refraction, portrait,"
