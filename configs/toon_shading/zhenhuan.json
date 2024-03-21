@@ -14,7 +14,7 @@
             {
                 "processor_id": "tile",
                 "model_path": "models/ControlNet/control_v11f1e_sd15_tile.pth",
-                "scale": 0.5
+                "scale": 0.1
             },
             {
                 "processor_id": "lineart",
@@ -30,7 +30,7 @@
             "height": 1024,
             "width": 1920,
             "start_frame_id": 0,
-            "end_frame_id": 30
+            "end_frame_id": 450
         },
         "controlnet_frames": [
             {
@@ -39,7 +39,7 @@
                 "height": 1024,
                 "width": 1920,
                 "start_frame_id": 0,
-                "end_frame_id": 30
+                "end_frame_id": 450
             },
             {
                 "video_file": "examples/videos/zhenhuan-shoot01.mp4",
@@ -47,7 +47,7 @@
                 "height": 1024,
                 "width": 1920,
                 "start_frame_id": 0,
-                "end_frame_id": 30
+                "end_frame_id": 450
             }
         ],
         "output_folder": "output/zhenhuan",
@@ -68,7 +68,7 @@
             "controlnet_batch_size": 1,
             "cross_frame_attention": false,
             "input_frames": [],
-            "num_frames": 30,
+            "num_frames": 450,
             "height": 1024,
             "width": 1920,
             "controlnet_frames": []

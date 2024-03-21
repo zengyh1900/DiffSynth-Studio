@@ -13,7 +13,7 @@
             {
                 "processor_id": "tile",
                 "model_path": "models/ControlNet/control_v11f1e_sd15_tile.pth",
-                "scale": 0.5
+                "scale": 0.1
             },
             {
                 "processor_id": "lineart",
